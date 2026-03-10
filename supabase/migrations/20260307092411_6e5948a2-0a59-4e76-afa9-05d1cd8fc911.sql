@@ -1,0 +1,1 @@
+UPDATE public.profiles SET ativo = true, role = 'admin' WHERE email = 'teste123@teste.com';

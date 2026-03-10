@@ -1,0 +1,1 @@
+CREATE POLICY "Active users can delete movimentacoes" ON public.movimentacoes FOR DELETE TO authenticated USING (is_active_user());
